@@ -136,4 +136,4 @@ jupyter notebook scripts/ARIA\ v3.0.ipynb
 
 本專案為學術研究用途，資料來源為政府開放資料。
 
-**GitHub**: https://github.com/d14622003/HW5-RemoteSensing
+**GitHub**: https://github.com/d14622003/HW5
