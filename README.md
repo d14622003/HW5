@@ -182,18 +182,6 @@ HEADERS = {
 ### 資料準備與清理
 **重要**: 在執行分析前，必須先進行資料清理以確保坐標品質。
 
-1. **執行資料清理腳本**:
-```bash
-python scripts/process_shelters.py
-```
-
-此腳本會：
-- 驗證坐標有效性和精度
-- 執行 Point-in-Polygon 空間驗證
-- 識別並處理不同坐標系統 (EPSG:4326/EPSG:3826)
-- 移除海上或境外點位
-- 產生清理後的資料檔：`data/避難收容處所_清理後.csv`
-
 ### 執行 ARIA v3.0 分析
 
 #### 選項1: 本地 Jupyter Notebook
